@@ -1,0 +1,139 @@
+.navbar{
+    display: flex;
+    background-color: #ffffff;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+body{
+    background-color: #FFF9CA;
+}
+
+.hero{
+    width: 100%;
+    position: absolute;
+}
+
+#titre{
+    position: absolute;
+    font-size: 500%;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 100px;
+}
+
+.propos{
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 3px solid black;
+    text-align: center;
+    position: relative;
+    margin-top: 680px;
+    height: 300px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.inspiration{
+    margin-top: 100px;
+}
+
+
+.contactPage{
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 3px solid black;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    height: 700px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        background-color: white;
+        padding-left: 150px;
+        padding-right: 150px;
+        font-family: 'Playfair Display', serif;
+        text-shadow: 1px 1px 2px black;
+        width: 600px;
+        height: 250px;
+    }
+
+    .logo{
+        margin-left: 70px;
+    }
+
+    .btn{
+        font-size: 100%;
+    }
+
+    .hero{
+        width: 600px;
+        position: absolute;
+    }
+
+    .inspiration{
+        width: 600px;
+    }
+
+    #titre{
+        position: absolute;
+        font-size: 80px;
+        color: #ffffff;
+        font-family: 'Playfair Display', serif;
+        text-shadow: 1px 1px 2px black;
+        margin-top: 10px;
+    }
+    
+    .propos{
+        background-color: #ffffff;
+        border-radius: 15px;
+        border: 3px solid black;
+        text-align: center;
+        position: relative;
+        margin-top: 300px;
+        height: 400px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Playfair Display', serif;
+    
+    }
+
+    
+.contactPage{
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 3px solid black;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    height: 1000px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Playfair Display', serif;
+}
+
+
+    
+    } 
+
+
